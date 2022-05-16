@@ -1,15 +1,19 @@
-# Basic Sample Hardhat Project
+# Whitelist Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project implements a Whitelist contract, where addresses can be added to a Whitelist interacting with the contract.
 
-Try running some of the following tasks:
+Throug Hardhat framework you can try running some of the following tasks to compile, test or deploy the contract:
 
 ```shell
-npx hardhat accounts
 npx hardhat compile
-npx hardhat clean
 npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+node scripts/deploy.js
 ```
+## Interact
+
+You can interact with the contract through [Remix](https://remix.ethereum.org/) and the frontend (Next section).
+Contract address deployed on Goerli Testnet: 0x595521da4cDE85f68F1875801d84f9c8FA8e057A
+
+## Frontend
+
+If you want to interact with the contract, you can do it by the [Whitelist_Frontend](https://github.com/zerpajose/Whitelist_Frontend).
